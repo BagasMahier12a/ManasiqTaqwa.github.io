@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&family=Poppins:wght@100;300;500&display=swap');
+body{
+	background: white;
+    padding: 0;
+}
+
+/* Navbar */
+
+.navbar{
+    height: 70px;
+    padding-bottom: 52px;
+    background: black;
+}
+
+.con{
+    margin: auto;
+}
+
+li{
+    margin:10px;
+ }
+ 
+ .container-fluid{
+     margin-top: 120px;
+     padding:0;
+ }
+ 
+
+/* HAJJ.html */
+
+.hajcon{
+    margin-top: 20px;
+    height: 586px;
+    background-color: white;
+}
+
+.gambar{
+    margin-top: 50px;
+        animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+.tekas{
+    margin-top: 150px;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+h4{
+    margin-top:10px;
+    margin-bottom:20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: inherit;
+}
+
+.btn{
+    border-radius: 20px;
+}
+
+.btnHajj{
+    border-radius: 20px;
+}
+
+div .btnHajj:hover{
+    border-radius: 20px;
+    transform: scale(1.1);
+    
+}
+
+h5{
+    font-family: 'Poppins';
+}
+
+div .btnHajj:hover{
+    border-radius: 20px;
+    transform: scale(1.1);
+    
+}
+
+.btnbawah{
+    padding: 10px;
+    font-family: 'Poppins';
+    background: #E5EFFF; 
+    border: none; 
+    color:black;
+}
+
+.btnbawah:hover{
+    border-radius: 20px;
+    background: #5C9BFF;
+    color:white;
+    transform: scale(1.1);
+    
+}
+
+.kartu{
+    transform: scale(1.1);
+}

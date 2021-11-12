@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&family=Poppins:wght@500&display=swap');
+
+body{
+	background: #000000;
+    padding: 0;
+}
+
+/* Navbar */
+
+.navbar{
+    height: 70px;
+}
+
+.con{
+    margin: auto;
+}
+
+li{
+    margin:10px;
+ }
+ 
+ .container-fluid{
+     margin-top: 120px;
+     padding:0;
+ }
+ 
+/* INDEX.HTML */
+
+.site-title{
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+.site-title .site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.site-title h1, h4{
+    margin: .3rem;
+}
+
+.site-title .btn{
+    margin: 1.8rem;
+    padding:10px;
+    border-radius: 20px;
+}
+
+div .btn{
+    border-radius: 20px;
+}
+#h4{
+    margin-top:30px;
+    font-family: "Monospace";
+}
+
+.bulan{
+    float: right;
+    margin-top:-120px;
+    max-width: 200px;
+}
+
+.bintang{
+    position: absolute;
+    max-width: 192px;
+}
+
+/* HAJJ.html */
+
+.hajcon{
+    margin-top: 20px;
+    height: 586px;
+    background-color: white;
+}
+
+.gambar{
+    margin-top: 50px;
+        animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+.tekas{
+    margin-top: 150px;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+h4{
+    margin-top:10px;
+    margin-bottom:20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: inherit;
+}
+
+
+div .btnHajj:hover{
+    border-radius: 20px;
+    background: transparent;
+    color:blue;
+    transform: scale(1.1);
+    
+}
+
